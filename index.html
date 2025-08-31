@@ -617,38 +617,46 @@
       </div>
     </div>
 
-    <!-- Updated Form -->
-    <form action="https://formsubmit.co/desh.datainfo@gmail.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-      
-      <!-- Hidden FormSubmit Settings -->
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_next" value="https://mrdesh01.github.io/portfolio/thank-you.html">
+    <!-- Contact Form -->
+<form action="https://formsubmit.co/desh.datainfo@gmail.com" method="POST" class="contact-form" data-aos="fade-up" data-aos-delay="300">
 
-      <div class="row gy-4">
+  <!-- Hidden Settings for FormSubmit -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="https://mrdesh01.github.io/portfolio/thank-you.html">
+  <input type="hidden" name="_subject" value="New Portfolio Contact Request!">
+  <input type="hidden" name="_replyto" value="%email%">
 
-        <div class="col-md-6">
-          <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-        </div>
+  <div class="row gy-4">
 
-        <div class="col-md-6">
-          <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-        </div>
+    <!-- Name -->
+    <div class="col-md-6">
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    </div>
 
-        <div class="col-md-12">
-          <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-        </div>
+    <!-- Email -->
+    <div class="col-md-6">
+      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+    </div>
 
-        <div class="col-md-12">
-          <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-        </div>
+    <!-- Subject -->
+    <div class="col-md-12">
+      <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+    </div>
 
-        <div class="col-md-12 text-center">
-          <button type="submit">Send Message</button>
-        </div>
+    <!-- Message -->
+    <div class="col-md-12">
+      <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+    </div>
 
-      </div>
-    </form><!-- End Contact Form -->
+    <!-- Submit Button -->
+    <div class="col-md-12 text-center">
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </div>
+
+  </div>
+</form><--end of contact form-->
+
 
   </div>
 
