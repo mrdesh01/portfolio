@@ -1334,19 +1334,21 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
-.contact-form button {
-  background: #212529;   /* কালো background */
-  color: #fff;           /* সাদা টেক্সট */
+/* Contact Form Button */
+.contact-btn {
+  background: #212529;      /* কালো background */
+  color: #fff;              /* সাদা টেক্সট */
   border: none;
-  padding: 10px 25px;
-  border-radius: 30px;   /* গোলাকার */
-  transition: 0.3s;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 30px;      /* গোলাকার */
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.contact-form button:hover {
-  background: #000;      /* hover করলে dark */
+.contact-btn:hover {
+  background: #000;         /* hover করলে আরও dark হবে */
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
