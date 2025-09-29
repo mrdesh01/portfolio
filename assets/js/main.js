@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       projectCards.forEach((card) => {
         if (filterValue === "all" || card.classList.contains(filterValue)) {
-          card.style.display = "block";
+          card.style.display = "";   // 👉 default CSS display ব্যবহার হবে (grid cell)
         } else {
           card.style.display = "none";
         }
@@ -203,6 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
 
 
 
